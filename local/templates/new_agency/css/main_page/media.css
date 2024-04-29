@@ -1,0 +1,530 @@
+@media screen and (max-width: 1200px)
+{
+	.slick-dots
+	{
+		left: 5px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.top-banner .banner-title
+	{
+		font-size: 24px;
+	}
+
+	.top-banner .banner-text
+	{
+		font-size: 20px; 
+	}
+
+	.slick-dots li button:before 
+	{
+    	font-size: 70px !important;
+	}
+
+	.slick-dots 
+	{
+	    bottom: -50px !important;
+	}
+
+	.top-banner 
+	{
+	    height: 500px;
+	   /* height: auto;
+    	padding: 70px 0;*/
+	}
+}
+
+
+/******************************/
+
+@media screen and (max-width: 1400px)
+{
+	.about .about-text
+	{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.about
+	{
+		margin-top: 50px;
+	}
+
+	.our-company
+	{
+		margin-bottom: 50px;
+	}
+
+	.about .about-text
+	{
+		font-size: 18px;
+	}
+
+	.about .company-box
+	{
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.about .company-item
+	{
+		width: 50%;
+	}
+}
+
+/*******************/
+@media screen and (max-width: 1400px)
+{
+	.stages .main-title
+	{
+		font-size: 32px;
+	}
+
+	.stages .left-box-title
+	{
+		font-size: 24px;
+	}	
+}
+
+@media screen and (max-width: 1200px)
+{
+	.stages .left-box-img
+	{
+		width: 240px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.stages .main-box
+	{
+		flex-direction: column;
+	}
+
+	.stages .left-box,
+	.stages .right-box
+	{
+		width: 100%;
+	}
+
+	.stages .one
+	{
+		order: 1;
+	}
+
+	.stages .two
+	{
+		order: 2;
+	}
+
+	.stages .three
+	{
+		order: 3;
+	}
+
+	.stages .four
+	{
+		order: 4;
+	}
+
+	.stages .left-box-text,
+	.stages .left-box.bottom-block .left-box-text
+	{
+		max-width: 400px;
+	}
+
+	.stages .left-box.bottom-block .left-box-img 
+	{
+	    bottom: 0px;
+	    right: 10px;
+	}
+
+	.stages .left-box-img
+	{
+		right: -10px;
+	}
+
+	.stages
+	{
+		margin-top: 50px;
+	}
+
+	.stages .main-title
+	{
+		margin-bottom: 30px;
+	}
+
+	.stages .right-box
+	{
+		margin-bottom: 0px;
+	}
+
+	.stages .stages-item:nth-child(n+3):nth-child(-n+4)
+	{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.stages .main-title
+	{
+		font-size: 24px;
+	}
+
+	.stages .left-box-title,
+	.stages .stages-item-title
+	{
+		font-size: 20px;
+	}
+
+	.stages .left-box-img
+	{
+		position: static;
+		max-width: 300px;
+		display: block;
+		margin: 20px auto 0 auto;
+	}
+
+	.stages .left-box
+	{
+		padding: 30px 30px 20px 30px;
+	}
+
+	.stages .stages-item
+	{
+		width: 100%;
+	}
+}
+
+/************************/
+@media screen and (max-width: 1400px)
+{
+	.main-title
+	{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.mobile-dev
+	{
+		margin-top: 30px;
+	}
+
+	.main-title
+	{
+		margin-bottom: 30px;
+	}
+}
+
+/*****************************/
+
+@media screen and (max-width: 1400px)
+{
+	.advantages .main-title
+	{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.advantages
+	{
+		margin: 50px 0;
+	}
+
+	.advantages .hat div
+	{
+		font-size: 20px;
+	}
+
+	.advantages .column div,
+	.advantages .last-line .column div
+	{
+		font-size: 16px;
+		padding: 20px 10px;
+	}
+
+	.advantages .main-title
+	{
+		margin-bottom: 40px;
+	}
+
+	.advantages .table-img
+	{
+		width: 110px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.advantages .column div,
+	.advantages .last-line .column div
+	{
+		font-size: 12px;
+		padding: 20px 0;
+		margin: 0 5px;
+		text-align: center;
+	}
+
+	.advantages .table-img
+	{
+		width: 100px;
+		right: 0px;
+	}
+
+	.advantages .main-title
+	{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	.advantages .hat .column 
+	{
+	    border-radius: 10px 10px 0 0;
+	}
+
+	.advantages .last-line .column 
+	{
+	    border-radius: 0 0 10px 10px;
+	}
+}
+
+/*********************************/
+@media screen and (max-width: 1400px)
+{
+	.tasks .main-title
+	{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.tasks .tasks-title
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.tasks .tasks-item
+	{
+		width: calc(33.3% - 10px);
+	}
+
+	.tasks .tasks-item
+	{
+		padding: 20px;
+	}
+
+	.tasks .tasks-title
+	{
+		height: 66px;
+	}
+
+	.tasks
+	{
+		margin-top: 50px;
+	}
+
+	.tasks
+	{
+		padding: 30px 0;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.tasks .title-button
+	{
+		align-items: flex-start;
+	}
+
+	.tasks .job-price
+	{
+		color: black;
+	}
+
+	.tasks .main-title
+	{
+		font-size: 24px;
+	}
+
+	.tasks .tasks-item
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.tasks .tasks-title
+	{
+		height: auto;
+		margin-bottom: 10px;
+	}
+
+	.tasks
+	{
+		padding: 30px 0 30px 0;
+	}
+
+	.tasks .title-button
+	{
+		flex-direction: column;
+	}
+
+	.tasks .title-button
+	{
+		margin-bottom: 0px;
+	}
+
+	.tasks .main-title
+	{
+		margin-bottom: 20px;
+	}
+
+	.tasks .more-dev
+	{
+		width: 100%;
+		font-size: 18px;
+	}
+
+	.tasks .more-dev.desctop
+	{
+		display: none;
+	}
+
+	.tasks .more-dev.mobile
+	{
+		display: flex !important;
+	}
+}
+
+/****************************/
+@media screen and (max-width: 1400px)
+{
+	.quest-form .main-title
+	{
+		font-size: 32px;
+	}
+
+	.quest-form .difficulties
+	{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1170px)
+{
+	.quest-form form
+	{
+		justify-content: space-around;
+	}
+
+	.quest-form input
+	{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.quest-form
+	{
+		padding: 50px 0 40px 0;
+	}
+
+	.quest-form .fast-answer
+	{
+		margin-bottom: 30px;
+	}
+
+	.quest-form .checkbox-text 
+	{
+	    margin: 30px 0 30px 0;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.quest-form .main-title
+	{
+		font-size: 24px;
+	}
+
+	.quest-form .fast-answer
+	{
+		font-size: 22px;
+	}
+
+	.quest-form .my-checkbox-descr
+	{
+		font-size: 16px;
+		line-height: 1.1;
+	}
+
+	.quest-form .difficulties
+	{
+		font-size: 16px;
+		line-height: 1.5;
+		text-align: center;
+	}
+
+	.quest-form .my-checkbox
+	{
+		height: 30px;
+		width: 30px;
+	}
+
+	.quest-form .my-checkbox-descr 
+	{
+    	width: calc(100% - 40px);
+	}
+
+	.quest-form .galka 
+	{
+	    left: 12px;
+	    top: 7px;
+	}
+
+	.quest-form input,
+	.quest-form #quest-form-button
+	{
+		width: 100%;
+	}
+
+	.quest-form input
+	{
+		padding: 0 20px;
+		text-align: center;
+	}
+}
+
+/**********************/
+@media screen and (max-width: 750px)
+{
+	#more-items-blog
+	{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 430px)
+{
+	.top-banner .banner-title
+	{
+		width: 250px;
+	}
+}
+

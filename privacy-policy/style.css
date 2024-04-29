@@ -1,0 +1,70 @@
+.politic .all_text
+{
+	font-size: 18px;
+}
+
+.politic .sub_title
+{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.table_box
+{
+	overflow-x: auto;
+}
+
+.table_box table
+{
+	min-width: 375px;
+}
+
+@media screen and (max-width: 1400px)
+{
+	.politic .sub_title
+	{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.politic .all_text
+	{
+		font-size: 18px;
+	}
+
+	.politic .sub_title
+	{
+		font-size: 20px;
+	}
+}
+	
+@media screen and (max-width: 1400px)
+{
+  .main-title 
+  {
+    font-size: 32px;
+}
+}
+
+@media screen and (max-width: 1000px)
+{
+  .main-title 
+  {
+      margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .main-title 
+  {
+      font-size: 24px;
+  }
+
+  .site_map li a, .site_map li {
+    font-size: 18px;
+}
+}
+ 

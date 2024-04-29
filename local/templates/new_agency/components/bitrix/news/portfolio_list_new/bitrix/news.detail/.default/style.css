@@ -1,0 +1,370 @@
+.ab_proj .head_line
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ab_proj .logo
+{
+  width: 153px;
+}
+
+.ab_proj .proj_title
+{
+  font-size: 40px;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.ab_proj .line
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.ab_proj .column
+{
+  width: calc(50% - 70px);
+}
+
+.ab_proj .about_text
+{
+  font-size: 20px;
+}
+
+.ab_proj .sub_title
+{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.ab_proj .photo_box
+{
+  width: 95px;
+  height: 130px;
+  border-radius: 6px;
+  margin: 0 5px 10px 0;
+}
+
+.ab_proj .photo_box img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 6px;
+}
+
+.ab_proj .photo_name
+{
+  display: flex;
+  align-items: center;
+}
+
+.ab_proj .about_pers
+{
+  font-size: 20px;
+}
+
+.ab_proj .client_text
+{
+  font-size: 16px;
+  color: #000000;
+}
+
+.ab_proj .instr_box
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ab_proj .instr_item
+{
+  margin: 0 20px 20px 0;
+  width: 180px;
+  box-shadow: 0px 0px 20px 2px #f2f2f2;
+  border-radius: 7px;
+  padding: 20px 10px;
+}
+
+.ab_proj .instr_logo
+{
+  width: 80px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.ab_proj .instr_text
+{
+  font-size: 16px;
+}
+
+.ab_proj .tech_box
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ab_proj .tech_item
+{
+  border: 1px solid #000000;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 2px 10px;
+  margin: 0 10px 10px 0;
+}
+
+.ab_proj .tech
+{
+  margin-top: 30px;
+}
+
+/***************************/
+
+.spec
+{
+  background: #F9F9F9;
+  padding-top: 20px;
+  margin-top: 80px;
+}
+
+.spec .wrap
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.spec .spec_item
+{
+  width: 160px;
+  margin: 0 5px 20px 5px;
+}
+
+.spec .spec_item.date
+{
+  width: 230px;
+}
+
+.spec .position
+{
+  font-size: 16px;
+  color: #000000;
+}
+
+.spec .fio
+{
+  font-size: 20px;
+  color: #000000;
+  opacity: 0.5;
+  line-height: 1.1;
+  margin-top: 10px;
+}
+
+footer
+{
+  margin-top: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************/
+@media screen and (max-width: 1000px)
+{
+  .ab_proj .head_line
+  {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ab_proj .proj_title
+  {
+    margin: 0px;
+  }
+
+  .ab_proj .logo
+  {
+    display: block;
+    margin: 0 auto 30px auto;
+  }
+
+  .ab_proj .line.top
+  {
+    flex-direction: column;
+  }
+
+  .ab_proj .line.bottom
+  {
+    flex-direction: column-reverse;
+  }
+
+  .ab_proj .column
+  {
+    width: 100%;
+  }
+
+  .ab_proj .task.column
+  {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .ab_proj .proj_title
+  {
+    font-size: 24px;
+  }
+
+  .ab_proj .about_text
+  {
+    font-size: 13px;
+  }
+
+  .ab_proj .task.column 
+  {
+      margin-top: 30px;
+  }
+
+  .ab_proj .sub_title
+  {
+    font-size: 24px;
+  }
+
+  .ab_proj .line
+  {
+    margin-bottom: 30px;
+  }
+
+  .ab_proj .instr_item
+  {
+    width: 165px;
+  }
+
+  .ab_proj .instr_item
+  {
+    margin: 0 5px 10px 5px;
+  }
+
+  .ab_proj .instr_text
+  {
+    font-size: 15px;
+  }
+
+  .ab_proj .review
+  {
+    margin-top: 30px;
+  }
+
+  .ab_proj .photo_box 
+  {
+      margin: 0 25px 10px 0;
+  }
+
+  .ab_proj .client_text
+  {
+    font-size: 13px;
+  }
+
+  .ab_proj .go_back
+  {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .ab_proj .go_back div
+  {
+    color: #D8D8D8;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 380px)
+{
+  .ab_proj .instr_item
+  {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 20px auto;
+  }
+
+  .ab_proj .instr_text
+  {
+    text-align: center;
+  }
+}
+
+
+/*******************/
+
+@media screen and (max-width: 750px)
+{
+  .spec .spec_item.date 
+  {
+    width: 180px;
+  }
+
+  .spec .position
+  {
+    font-size: 12px;
+  }
+
+  .spec .fio
+  {
+    font-size: 14px;
+  }
+
+  .spec
+  {
+    background: #D9D9D9;
+  }
+
+  .spec .spec_item
+  {
+    width: 110px;
+  }
+
+  .spec
+  {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 390px)
+{
+  .spec .spec_item
+  {
+    width: calc(50% - 20px);
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

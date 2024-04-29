@@ -1,0 +1,461 @@
+/*********************/
+
+.all_tables
+{
+  margin-top: 70px;
+}
+
+.price_table
+{
+    overflow: auto;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+}
+
+.price_table table 
+{
+    width: 100%;
+    min-width: 720px;
+    font-size: 18px;
+}
+
+.price_table table thead
+{
+  text-align: left;
+}
+
+.price_table table .table_title
+{
+  font-size: 22px !important;
+  padding-right: 10px;
+}
+
+.price_table table thead th
+{
+  font-weight: normal;
+}
+
+.price_table table tbody tr td
+{
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.price_table table .table_title
+{
+  margin-bottom: 30px;
+}
+
+.price_table table thead th 
+{
+    vertical-align: initial;
+}
+
+.price_table table thead .one
+{
+  width: 34%;
+}
+
+.price_table table thead .another
+{
+  width: 22%;
+}
+
+.price_table table tbody tr:first-child td 
+{
+    color: #858c97;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.all_tables .about_text
+{
+  font-size: 18px;
+}
+
+.sub_title
+{
+  font-size: 28px;
+  margin: 30px 0;
+}
+
+/***************************/
+/*********************/
+
+.sages_box
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.stages
+{
+  margin-top: 70px;
+}
+
+.stages .small-stage {
+    display: flex;
+    align-items: flex-start;
+    padding: 60px 30px 40px 30px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 0px 20px 2px #f2f2f2;
+
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.stages .small-stage-img {
+    width: 66px;
+    margin-right: 10px;
+}
+
+.stages .small-stage-text {
+    width: calc(100% - 30px);
+}
+
+.stages .stage-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.stages .small-stage .stage-text {
+    max-width: 350px;
+}
+
+.stages .stage-text {
+    font-size: 18px;
+    width: 100%;
+}
+
+.stages .num-stage {
+    font-size: 55px;
+    color: #e9eaf0;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    font-weight: bold;
+    z-index: -1;
+}
+
+/**************************/
+
+.tasks
+{
+  background: #f6f7f8;
+  margin-top: 80px;
+  padding: 70px 0;
+}
+
+.tasks .tasks-box
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tasks *
+{
+  overflow-wrap: break-word;
+}
+
+.tasks .tasks-item
+{
+  width: calc(33.3% - 25px);
+  margin: 18px 0; 
+  padding: 60px 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 10px #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 245px;
+}
+
+.tasks .tasks-title
+{
+  font-size: 23px;
+  color: #2a49be;
+  margin-bottom: 20px;
+}
+
+.tasks .job-price
+{
+  color: #FF0000;
+  font-size: 16px;
+}
+
+.tasks .sub_title
+{
+  margin-top: 0px;
+}
+
+/********************************/
+
+.why_we .list
+{
+  /*padding-left: 20px;*/
+  margin: 0px;
+  font-size: 27px;
+}
+
+.why_we .list li
+{
+  margin-bottom: 20px;
+}
+
+.why_we
+{
+  margin-top: 70px !important;
+}
+
+@media screen and (max-width: 1400px)
+{
+  .why_we .list
+  {
+      font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .why_we .list
+  {
+      font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .why_we
+  {
+    margin-top: 50px !important;
+  }
+
+  .why_we .list
+  {
+    padding-left: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************/
+
+@media screen and (max-width: 1400px)
+{
+  .main-title 
+  {
+      font-size: 32px;
+  }
+
+  .sub_title
+  {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .main-title 
+  {
+      margin-bottom: 30px;
+  }
+
+  .price_table table
+  {
+    font-size: 15px;
+  }
+
+  .price_table table .table_title
+  {
+    font-size: 18px !important;
+  }
+
+  .price_table table thead .one
+  {
+    width: 25%;
+  }
+
+  .price_table table thead .another
+  {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .main-title 
+  {
+      font-size: 24px;
+  }
+
+  .price_table table .table_title
+  {
+    font-size: 16px !important;
+  }
+
+  .sub_title
+  {
+    font-size: 20px;
+  }
+}
+
+/**********************************/
+@media screen and (max-width: 1000px)
+{
+  .stages .small-stage 
+  {
+      margin-bottom: 30px;
+      padding: 60px 30px 30px 30px;
+  }
+
+  .stages .stage-title {
+    font-size: 24px;
+}
+
+  .stages .small-stage
+  {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .stages .small-stage 
+  {
+      flex-direction: column;
+  }
+
+  .stages .small-stage-img 
+  {
+      margin-bottom: 20px;
+  }
+
+  .stages .small-stage-text {
+    width: 100%;
+}
+  .stages .stage-title {
+    margin-bottom: 10px;
+}
+
+  .stages .stage-title {
+    font-size: 20px;
+}
+
+  .stages .small-stage .stage-text {
+    max-width: 100%;
+}
+  .stages .num-stage {
+    font-size: 40px;
+    top: 10px;
+}
+
+}
+
+/****************************/
+/*********************************/
+@media screen and (max-width: 1400px)
+{
+  .tasks .main-title
+  {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1100px)
+{
+  .tasks .tasks-title
+  {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .tasks .tasks-item
+  {
+    width: calc(33.3% - 10px);
+  }
+
+  .tasks .tasks-item
+  {
+    padding: 20px;
+  }
+
+  .tasks .tasks-title
+  {
+    height: 66px;
+  }
+
+  .tasks
+  {
+    margin-top: 50px;
+  }
+
+  .tasks
+  {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .tasks .job-price
+  {
+    color: black;
+  }
+
+  .tasks .main-title
+  {
+    font-size: 24px;
+  }
+
+  .tasks .tasks-item
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .tasks .tasks-title
+  {
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .tasks
+  {
+    padding: 30px 0 30px 0;
+  }
+
+  .tasks .main-title
+  {
+    margin-bottom: 20px;
+  }
+
+  .tasks .tasks-item
+  {
+    min-height: auto;
+  }
+
+}
+
+/****************************/
+
+

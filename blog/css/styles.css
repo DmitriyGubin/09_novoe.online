@@ -1,0 +1,72 @@
+.blog
+{
+  margin-top: 70px;
+}
+
+.blog .date-views
+{
+  display: flex;
+  align-items: center;
+}
+
+.blog .blog-box
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog .blog-item
+{
+  width: calc(50% - 15px);
+  margin-bottom: 30px;
+  background: linear-gradient(to left,#2c4bc5, #152367);
+  padding: 50px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+.blog .date-views span
+{
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.blog .view
+{
+  margin: 0 10px 0 20px;
+  width: 30px;
+}
+
+.blog .item-title
+{
+  font-size: 28px;
+  line-height: 1.5;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.blog .item-text
+{
+  font-size: 21px;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+.blog .blog-item-img
+{
+  display: block;
+  width: 35%;
+  margin: 20px auto 20px auto;
+}
+
+.blog .blog-item:hover
+{
+  transform: scale(1.03);
+}
+
+

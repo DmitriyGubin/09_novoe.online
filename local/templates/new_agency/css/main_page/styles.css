@@ -1,0 +1,749 @@
+header
+{
+  margin-bottom: 0px !important;
+}
+
+footer
+{
+  margin-top: -1px;
+}
+
+/*********************/
+
+/*Классы для slick-slidera*/
+
+.top-banner .slick-prev:before, .slick-next:before
+{
+    display: none !important;
+}
+
+/**это кнопка слайдера**/
+.top-banner .slick-dots li button:before 
+{
+    font-size: 100px !important;
+    color: white !important;
+    /*z-index: 999;*/
+}
+
+.top-banner .slick-dots
+{
+    max-width: 1200px;
+    left: calc(50% - 600px);
+    display: flex !important;
+    justify-content: flex-start;
+    bottom: -70px !important;
+}
+
+.top-banner .slick-dots li 
+{
+    margin: 0 10px !important;
+}
+
+/*Классы для slick-slidera*/
+
+.top-banner 
+{
+    height: 770px;
+    margin-top: -1px;
+    background-repeat: no-repeat;
+    background-image: url("../../img/banner-fon.webp");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-banner .banner-title 
+{
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    max-width: 740px;
+    line-height: 1.3;
+}
+
+.top-banner .banner-text 
+{
+    font-size: 27px;
+    color: #ffffff;
+    width: 100%;
+    max-width: 710px;
+    margin-top: 20px;
+    line-height: 1.3;
+}
+
+.top-banner .top-slider
+{
+    transition: all 1.5s;
+}
+
+/**************************/
+.our-company
+{
+  margin-bottom: 80px;
+}
+
+.about
+{
+  margin-top: 80px;
+}
+
+.about .hello
+{
+  font-size: 24px;
+  color: #838383;
+}
+
+.about .about-text
+{
+  font-size: 27px;
+  width: 100%;
+  max-width: 770px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.about .about-text p
+{
+  margin-top: 20px;
+}
+
+.about .company-box
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  position: relative;
+}
+
+.about .company-item
+{
+  width: 25%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dedede;
+}
+
+.about .company-item:hover .company-logo
+{
+  transform: scale(1.1);
+}
+
+.about .company-logo
+{
+  width: 55%;
+  transition: transform 0.4s ease;
+}
+
+.about .hide-line
+{
+   position: absolute;
+   background: white;
+}
+
+.about .top-line
+{
+  top: -3px;
+  height: 6px;
+  width: 100%;
+}
+
+.about .left-line
+{
+  left: -3px;
+  width: 6px;
+  height: 100%;
+}
+
+.about .bottom-line
+{
+  bottom: -3px;
+  height: 6px;
+  width: 100%;
+}
+
+.about .right-line
+{
+  right: -3px;
+  width: 6px;
+  height: 100%;
+}
+/***************************/
+
+.stages
+{
+  margin-top: 120px;
+}
+
+.stages a:hover
+{
+  transform: scale(1.05);
+}
+
+.stages a
+{
+  transition: transform 0.4s ease;
+}
+
+.stages .main-box
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stages .left-box
+{
+  width: calc(50% - 15px);
+  box-shadow: 0px 0px 20px 2px #f2f2f2;
+  border-radius: 20px;
+  padding: 50px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.stages .right-box
+{
+  width: calc(50% - 15px);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.stages .stages-item
+{
+  width: calc(50% - 15px);
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px 2px #f2f2f2;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.stages .stages-item:nth-child(n+3):nth-child(-n+4)
+{
+  margin-bottom: 0px;
+}
+
+.stages .main-title
+{
+  margin-bottom: 50px;
+}
+
+.stages .left-box-title
+{
+  font-size: 28px;
+  /*max-width: 240px;*/
+  width: 100%;
+  line-height: 1.4;
+}
+
+.stages .left-box-text
+{
+  font-size: 18px;
+  max-width: 300px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.stages .left-box-img
+{
+  position: absolute;
+  bottom: -30px;
+  right: -20px;
+  /*width: 298px;*/
+  width: 260px;
+  z-index: -1;
+}
+
+.stages .img-number
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.stages .stages-item-img
+{
+  width: 62px;
+ /* height: 62px;*/
+}
+
+.stages .stages-item-number
+{
+  font-size: 55px;
+  line-height: 55px;
+  color: #e9eaf0;
+  font-weight: bold;
+}
+
+.stages .stages-item-title
+{
+  font-size: 24px;
+  line-height: 1.3;
+  margin-top: 20px;
+}
+
+.stages .left-box.bottom-block .left-box-text
+{
+  max-width: 100%;
+}
+
+.stages .left-box.bottom-block .left-box-img
+{
+  bottom: 10px;
+  right: 40px;
+}
+
+/****************************/
+.mobile-dev
+{
+  margin-top: 70px;
+}
+
+.mobile-dev .mobile-dev-text
+{
+  font-size: 18px;
+  line-height: 1.4;
+  width: 100%;
+  max-width: 1030px;
+}
+
+.mobile-dev .mobile-dev-text p
+{
+  margin-bottom: 20px;
+}
+
+/***************************/
+
+.advantages
+{
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.advantages *
+{
+  overflow-wrap: break-word;
+}
+
+.advantages .more-info-serv
+{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  display: block;
+  margin-top: 20px;
+}
+
+.advantages .main-title
+{
+  width: 100%;
+  max-width: 720px;
+}
+
+.advantages .adv-boxx
+{
+  line-height: 1.4;
+  display: block !important;
+}
+
+.advantages .table-line
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages .column
+{
+  width: calc(33.3% - 5px);
+}
+
+.advantages .column div
+{
+  padding: 30px 35px;
+}
+
+.advantages .one
+{
+  font-size: 18px;
+  font-weight: bold;
+  background: #f6f7f8;
+}
+
+.advantages .one div
+{
+  border-bottom: 1px solid #aaaaab;
+}
+
+.advantages .two
+{
+  font-size: 18px;
+  background: #f6f7f8;
+}
+
+.advantages .two div
+{
+  border-bottom: 1px solid #aaaaab; 
+}
+
+.advantages .three
+{
+  font-size: 18px;
+  background: #2a49be;
+  color: #ffffff;
+}
+
+.advantages .three div
+{
+  border-bottom: 1px solid #7489d5;
+}
+
+.advantages .hat .one
+{
+  background: white;
+  position: relative;
+}
+
+.advantages .hat .column
+{
+  border-radius: 20px 20px 0 0;
+}
+
+.advantages .hat .two,
+.advantages .hat .three
+{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.advantages .hat .one div
+{
+  position: relative;
+  border-bottom: none;
+}
+
+.advantages .table-img
+{
+  position: absolute;
+  right: 30px;
+  bottom: -10px;
+  width: 140px;
+}
+
+.advantages .column.under-img
+{
+  border-radius: 20px 20px 0 0;
+}
+
+.advantages .last-line .column
+{
+  border-radius: 0 0 20px 20px;
+}
+
+.advantages .last-line .column div
+{
+  border: none;
+  padding: 30px 35px 50px 35px;
+}
+
+.advantages .column div
+{
+  margin: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*******************************/
+
+.tasks
+{
+  background: #f6f7f8;
+  margin-top: 80px;
+  padding: 70px 0;
+}
+
+.tasks .title-button
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.tasks .more-dev
+{
+    border-radius: 10px;
+    background: linear-gradient(to left, #2c4bc5, #152367);
+    color: white;
+    border: none;
+    transition: background 0.5s ease;
+    width: 250px;
+    height: 60px;
+    font-size: 23px;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks .main-title
+{
+  margin-bottom: 0px;
+}
+
+.tasks .tasks-box
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tasks .tasks-item
+{
+  width: calc(33.3% - 25px);
+  padding: 60px 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 10px #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tasks .tasks-title
+{
+  font-size: 23px;
+  color: #2a49be;
+  margin-bottom: 20px;
+}
+
+.tasks .tasks-text
+{
+  font-size: 16px;
+}
+
+.tasks .job-price
+{
+  color: #FF0000;
+  font-size: 16px;
+} 
+
+/***************************/
+.quest-form
+{
+  background: #0347c4;
+  padding: 70px 0 40px 0;
+}
+
+.quest-form .main-title
+{
+  color: #ffffff;
+}
+
+.quest-form .fast-answer
+{
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.quest-form input
+{
+  width: 280px;
+  height: 60px;
+  background: #ffffff;
+  font-size: 16px;
+  padding: 0 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.quest-form input::placeholder
+{
+  color: black;
+  font-size: 16px;
+  /*font-weight: bold;*/
+}
+
+.quest-form form
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.quest-form .main-title
+{
+  margin-bottom: 0px;
+}
+
+.quest-form .fast-answer
+{
+  margin-bottom: 50px;
+}
+
+.quest-form #quest-form-button
+{
+  width: 275px;
+  height: 60px;
+  border-radius: 60px;
+  background: #ffffff;
+  font-size: 18px;
+  /*font-weight: bold;*/
+}
+
+.quest-form .checkbox-text
+{
+  cursor: pointer;
+  margin: 30px 0 60px 0;
+}
+
+.quest-form .my-checkbox
+{
+  position: relative;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quest-form .galka
+{
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #ffffff;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+}
+
+.quest-form .my-checkbox-descr
+{
+  font-size: 18px;
+  color: #ffffff;
+  width: calc(100% - 30px);
+}
+
+.quest-form .checkbox-text
+{
+  display: flex;
+  align-items: center;
+}
+
+.quest-form .difficulties
+{
+  font-size: 24px;
+  color: #ffffff;
+  width: 100%;
+  max-width: 860px;
+  line-height: 1.4;
+}
+
+.quest-form .difficulties a
+{
+  color: #ffffff;
+}
+
+/*********************/
+#more-items-blog
+{
+  width: 220px;
+  height: 60px;
+  border-radius: 60px;
+  background: #2a49be;
+  color: #f1f3fb;
+  font-size: 18px;
+}
+
+/***********************/
+/*.tech
+{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.tech .tech-box
+{
+    padding: 60px 30px;
+    margin: 0 10px;
+    background: linear-gradient(to left,#2c4bc5, #152367);
+    border-radius: 20px;
+    height: 100% !important;
+}
+
+.tech .tech-logo
+{
+  display: block;
+  width: 50%;
+  margin: 0px 0 20px 0;
+}
+
+.tech .tech-title
+{
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.tech .tech-text
+{
+  font-size: 18px;
+  color: white;
+}
+*/
+/*Классы для slick-slidera*/
+
+.tech .slick-prev:before, .slick-next:before
+{
+    display: none !important;
+}
+
+/**это кнопка слайдера**/
+/*.tech .slick-dots li button:before 
+{
+    font-size: 100px !important;
+}
+
+.tech .slick-dots
+{
+    display: flex !important;
+    justify-content: center;
+    bottom: -50px !important;
+}
+
+.tech .slick-dots li 
+{
+    margin: 0 10px !important;
+}
+
+.tech .slick-track
+{
+  display:flex;
+}
+
+.tech .slick-slide
+{
+  height:auto !important;
+}
+*/
+/*Классы для slick-slidera*/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+@media screen and (max-width: 750px)
+{
+	.top-banner .banner-title
+	{
+		font-size: 22px;
+	}
+
+	.top-banner .banner-text
+	{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	.top-banner
+	{
+		height: auto;
+		padding: 70px 0;
+	}
+}
+
+/**********************/
+@media screen and (max-width: 1400px)
+{
+	.main-title
+	{
+		font-size: 32px;
+	}
+
+	.services .services-title
+	{
+		font-size: 24px;
+	}
+
+	.services .services-item
+	{
+		padding: 30px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.main-title
+	{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.services .services-item
+	{
+		width: 100%;
+	}
+
+	.services
+	{
+		margin-top: 0px;
+	}
+
+	.main-title
+	{
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.services .services-title
+	{
+		font-size: 18px;
+	}
+
+	.services .services-img 
+	{
+	    width: 60px;
+	    margin-right: 10px;
+	}
+
+	.services .services-item
+	{
+		padding: 40px 20px;
+	}
+
+	.services .arrow
+	{
+		width: 30px;
+	}
+
+	.services .img-text
+	{
+	  width: calc(100% - 30px);
+	}
+}
+
+/*************************/
+@media screen and (max-width: 1400px)
+{
+	.areas .areas-descr,
+	.areas .areas-text
+	{
+		font-size: 20px;
+	}
+
+	.areas .areas-text
+	{
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.areas
+	{
+		margin-top: 30px;
+	}
+
+	.areas .areas-box
+	{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.areas .areas-item
+	{
+		width: 100%;
+		max-width: 330px;
+		margin: 0 auto;
+	}
+
+	.areas .areas-item img
+	{
+		width: 132px;
+	}
+
+	.areas .areas_slide
+	{
+		max-width: 100%;
+		margin-bottom: 0px;
+	}
+}

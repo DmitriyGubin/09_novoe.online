@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Блог", 
+		"/blog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Портфолио", 
+		"/portfolio/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аутстаффинг разработчиков", 
+		"/specialists/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Политика конфиденциальности", 
+		"/privacy-policy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пользовательское соглашение", 
+		"/terms/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

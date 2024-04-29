@@ -1,0 +1,329 @@
+ul li,
+ol li
+{
+  margin-bottom: 10px;
+}
+
+*
+{
+  overflow-wrap: break-word;
+}
+
+.table-wrap
+{
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.table-wrap table
+{
+  min-width: 605px;
+}
+
+table
+{
+  text-align: center;
+}
+
+/*********************/
+.nav_chain 
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px !important;
+}
+.nav_chain li
+{
+  list-style-type: none;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_chain li a
+{
+  font-size: 18px;
+  color: #b9b9b9;
+}
+
+.nav_chain svg
+{
+  width: 15px;
+  height: 15px;
+  color: #b9b9b9;
+  /*display: block;*/
+  margin: 0 5px;
+}
+/************************/
+
+.article .wiew-date
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.article .only-view
+{
+  display: flex;
+  align-items: center;
+}
+
+.article .wiew
+{
+  width: 30px;
+  margin-right: 5px;
+}
+
+.article .numbers,
+.article .date
+{
+  font-size: 18px;
+}
+
+.article .main-title
+{
+  font-size: 28px;
+  width: 100%;
+ /* max-width: 740px;*/
+  margin: 10px 0 35px 0;
+}
+
+.article .sub_title
+{
+  font-size: 26px;
+  margin: 50px 0;
+  text-align: left;
+}
+
+.article .preview-text
+{
+  font-size: 21px;
+  color: #838383;
+  width: 100%;
+  max-width: 750px;
+}
+
+.article .main-img
+{
+  width: 100%;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+
+.article .main-text
+{
+  font-size: 25px;
+  text-align: justify;
+}
+
+.article .main-text img
+{
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 20px 0;
+}
+
+.article .rules-line
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.article .rules-line a
+{
+  font-size: 22px;
+  color: #d8d8d8;
+  white-space: nowrap
+}
+
+.article .rules-line a svg
+{
+  width: 15px;
+  height: 15px;
+}
+
+.article #go-back svg
+{
+  transform: rotate(180deg);
+}
+
+.article .delimeter 
+{
+    width: 3px;
+    height: 20px;
+    background: #d8d8d8;
+    margin: 0 20px;
+}
+
+.article .similar
+{
+  margin: 0px;
+  text-align: left;
+}
+
+.article .artic_menu
+{
+  font-size: 25px;
+  color: #2a49be;
+  margin: 0 0 50px 0;
+}
+
+.article .artic_menu li a,
+.article .menu_title
+{
+  color: #2a49be;
+}
+
+.article .menu_title
+{
+  margin-bottom: 20px;
+}
+
+.article .sosial_box
+{
+  margin-top: 30px
+}
+
+.article .sosial_title
+{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #2a49be;
+}
+
+.ya-share2__container_size_m .ya-share2__badge .ya-share2__icon 
+{
+    height: 34px !important;
+    width: 34px !important;
+}
+
+.ya-share2__container_shape_round.ya-share2__container_size_m .ya-share2__badge .ya-share2__icon:not(.ya-share2__icon_messenger-contact):not(.ya-share2__icon_more):not(.ya-share2__icon_copy) {
+    background-size: 27px 27px !important;
+}
+
+.ya-share2__list.ya-share2__list_direction_horizontal > .ya-share2__item 
+{
+    margin: 2px 10px 0 0 !important;
+}
+
+.article .sosial_box ul
+{
+     padding-left: 0px !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********медиа-запросы***********************/
+@media screen and (max-width: 1400px)
+{
+  .nav_chain li a
+  {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .nav_chain
+  {
+    margin-bottom: 50px !important;
+  }
+}
+
+/**********************/
+
+@media screen and (max-width: 1400px)
+{
+  .article .preview-text,
+  .article .main-text,
+  .article .rules-line a,
+  .article .artic_menu,
+  .article .sosial_title
+  {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .article .main-img
+  {
+    margin: 30px 0;
+  }
+
+  .article .rules-line
+  {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .article .menu_title
+  {
+    margin-top: 20px;
+  }
+
+  .article .main-title
+  {
+    font-size: 24px;
+  }
+
+  .article .sub_title
+  {
+    font-size: 20px;
+  }
+
+  .article .rules-line 
+  {
+      margin-top: 30px;
+  }
+
+  .article ul,
+  .article ol
+  {
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 500px)
+{
+  .article .rules-line a 
+  {
+      font-size: 14px;
+  }
+
+  .article .rules-line a svg 
+  {
+      width: 8px;
+      height: 8px;
+  }
+
+  .article .delimeter 
+  {
+      width: 2px;
+      height: 15px;
+      margin: 0 5px;
+  }
+}

@@ -1,0 +1,138 @@
+@media screen and (max-width: 1400px)
+{
+	.convoy .title,
+	.convoy .animate_box,
+	.convoy .quest_title
+	{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.convoy .phone
+	{
+		font-size: 25px;
+	}
+
+	.convoy .point_item
+	{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.convoy .phone 
+	{
+		font-size: 18px;
+	}
+
+	.convoy .call_order
+	{
+		width: 180px;
+	}
+
+	.convoy .point_item
+	{
+		font-size: 16px;
+		margin-right: 14px;
+	}
+
+	.convoy .phone
+	{
+		font-size: 16px;
+	}
+
+	.convoy .inp_box
+	{
+		width: 50%;
+	}
+
+	.convoy .order_form button
+	{
+		width: calc(100% - 20px);
+		margin-top: 10px;
+	}
+
+	.convoy .form_anime
+	{
+		margin-top: 50px;
+	}
+
+	.convoy .quest_box
+	{
+		margin: 50px 0;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.convoy .title,
+	.convoy .animate_box,
+	.convoy .quest_title
+	{
+		font-size: 24px;
+	}
+
+	.convoy .top_line,
+	.convoy .points,
+	.convoy .pnone_button
+	{
+		flex-direction: column;
+	}
+
+	.convoy .point_item
+	{
+		margin: 0 0 5px 0;
+		text-align: center;
+	}
+
+	.convoy .call_order
+	{
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.convoy .pnone_button
+	{
+		width: 100%;
+	}
+
+	.convoy .form_box 
+	{
+		width: 100%;
+		padding-right: 0px;
+		text-align: center;
+	}
+
+	.convoy .form_anime
+	{
+		flex-direction: column;
+	}
+
+	.convoy .sub_title,
+	.convoy .quest_sub,
+	.convoy .last_line
+	{
+		font-size: 18px;
+	}
+
+	.convoy .inp_box
+	{
+		width: 100%;
+		padding: 0px;
+		margin-bottom: 10px;
+	}
+
+	.convoy .order_form button
+	{
+		width: 100%;
+	}
+
+	.convoy .animate_box
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
